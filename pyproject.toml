@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "spam e-mail classification"
+version = "0.1.0"
+description = "Training RNN models for SPAM classification"
+authors = ["Voris Davlatzoda <davlatzodavkh30@gmail.com>"]
+license = "---"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipykernel = "6.29.5"
+pandas = "*"
+nltk = "^3.9.1"
+tqdm = "^4.67.0"
+scikit-learn = "^1.5.2"
+gensim = "^4.3.3"
+numpy = "^1.21.0" 
+torch = "^2.5.1"
+loguru = "^0.7.2"
+matplotlib = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
